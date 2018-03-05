@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dio.satriani.maps_ung.biodataActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#0ed24c"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TENTANG APLIKASI"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:background="#f01423" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="350dp"
+            android:src="@drawable/fks"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:background="#0ed24c">
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="4dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:layout_marginTop="10dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:background="#55ea">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Version 1.0.0"
+                 android:layout_gravity="center"
+                 android:paddingBottom="10sp"/>
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Aplikasi ini menggunakan Rest Api pada Maps nya dengan server lokal, aplikasi ini dalam tahap pengembangan jadi tunggulah update nya okeee."
+            android:textSize="18dp"
+             android:gravity="center_vertical"
+            android:textColor="#070505" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:gravity="center_vertical"
+            android:text="      aplikasi ini mendeteksi lokasi anda ke pada pengguna lalu pengguna juga bisa mengetahui seperti apa tempat nya dan dimana letaknya."
+            android:textSize="18dp"
+            android:textColor="#070505" />
+
+         </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+
+
+</LinearLayout>

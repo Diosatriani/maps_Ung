@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dio.satriani.maps_ung.DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ToolBarStyle">
+
+    </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/idt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="4dp"
+                android:paddingTop="100dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingTop="-50dp"
+                android:src="@drawable/fks" />
+
+            <TextView
+                    android:id="@+id/namat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="nama"
+                    android:textColor="@color/dark"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <!--<ImageView-->
+                    <!--android:background="@drawable/fkesnew1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="@color/dark"-->
+                    <!--android:textSize="22dp" />-->
+
+                <TextView
+                    android:id="@+id/jenist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="jenis" />
+
+                <TextView
+                    android:id="@+id/latt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="latitude" />
+
+                <TextView
+                    android:id="@+id/lngt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="longitude" />
+
+            </LinearLayout>
+
+</RelativeLayout>
